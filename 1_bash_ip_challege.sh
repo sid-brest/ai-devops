@@ -13,3 +13,8 @@ if [[ $ip_address =~ $regex_pattern ]]; then
 else
   echo "The input IP address is NOT VALID."
 fi
+
+# correct regex regex_pattern="^([0-9]{1,3}\.){3}[0-9]{1,3}$" 
+# to match IP range from 0.0.0.0 - 255.255.255.255
+
+# add comments to this bash script
