@@ -1,9 +1,0 @@
-#!/bin/bash
-echo "Please enter an IP address:"
-read ip_address
-regex_pattern="^([0-9]{1,3}\.){3}[0-9]{1,3}$"
-if [[ $ip_address =~ $regex_pattern ]]; then
-  echo "The input IP address is VALID."
-else
-  echo "The input IP address is NOT VALID."
-fi
