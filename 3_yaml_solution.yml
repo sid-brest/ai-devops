@@ -10,7 +10,7 @@
       update_cache: yes  # update the package list
 
   - name: Show Ubuntu version
-    command: lsb_relese -a  # run the lsb_release -a command and register its output
+    command: lsb_release -a  # run the lsb_release -a command and register its output
     register: ubuntu_version
 
   - name: Display Ubuntu version
